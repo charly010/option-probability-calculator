@@ -1,6 +1,7 @@
 # Option Probability Calculator
 
 Calculateur de probabilités d'expiration OTM/ITM et de prix théorique d'options, basé sur le modèle Black-Scholes.
+
 https://charly010.github.io/option-probability-calculator/
 
 ## Fonctionnalités
