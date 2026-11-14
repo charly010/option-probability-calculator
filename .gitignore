@@ -1,0 +1,15 @@
+# Dependances Node.js
+node_modules/
+
+# Build Vite
+dist/
+
+# Fichiers systeme
+.DS_Store
+
+# Variables d'environnement
+.env
+.env.*
+
+# Logs
+npm-debug.log*
