@@ -12,7 +12,7 @@ export function calculateProbability({ type, spot, strike, iv, dte, rate, divide
   const S = Number(spot)
   const K = Number(strike)
   const sigma = Number(iv) / 100
-  const T = Number(dte) / 365
+  const T = Number(dte) / 252
   const r = Number(rate) / 100
   const q = Number(dividend) / 100
 
