@@ -1,4 +1,5 @@
-// Approximation de la fonction de répartition de la loi normale standard.
+const DAYS_IN_YEAR = 365
+
 function normalCDF(x) {
   const sign = x < 0 ? -1 : 1
   const z = Math.abs(x) / Math.sqrt(2)
@@ -12,7 +13,7 @@ export function calculateProbability({ type, spot, strike, iv, dte, rate, divide
   const S = Number(spot)
   const K = Number(strike)
   const sigma = Number(iv) / 100
-  const T = Number(dte) / 252
+  const T = Number(dte) / DAYS_IN_YEAR
   const r = Number(rate) / 100
   const q = Number(dividend) / 100
 
