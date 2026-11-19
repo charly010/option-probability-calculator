@@ -9,7 +9,7 @@ const initialValues = {
   strike: '95',
   iv: '25',
   dte: '30',
-  rate: '4.5',
+  rate: '4',
   dividend: '1',
 }
 
